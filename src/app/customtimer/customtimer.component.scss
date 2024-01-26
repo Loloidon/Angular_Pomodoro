@@ -1,0 +1,30 @@
+.body{
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.container {
+    
+    width: 700px;
+    height: 600px;
+    background: rgb(57,22,215);
+    background: linear-gradient(90deg, rgba(57,22,215,1) 2%, rgba(88,0,250,1) 48%, rgba(103,73,235,1) 100%);
+    position: relative;
+    
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    margin-top: 100px;
+    margin: auto;
+    border-radius: 10px;
+    z-index: 7;
+    
+    
+}
+h3{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
+}

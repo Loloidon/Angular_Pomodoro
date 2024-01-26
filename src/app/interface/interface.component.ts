@@ -34,6 +34,11 @@ export class InterfaceComponent {
             this.hour++;
             this.minutes = 0;
           }
+          if(this.minutes===25)
+          {
+            this.start="Short Pause"
+            this.minutes=0
+          }
         }
       }, 1000);
     } else {
