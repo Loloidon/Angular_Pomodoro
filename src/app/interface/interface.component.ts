@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import { RouterLinkActive } from '@angular/router';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-interface',
   standalone: true,
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  imports :[RouterLink,RouterLinkActive,RouterModule],
+  imports: [RouterLink,RouterModule,RouterLinkActive],
+  templateUrl: './interface.component.html',
+  styleUrl: './interface.component.scss'
 })
-export class AppComponent {
+export class InterfaceComponent {
 
   title = 'Angular_Pomodoro';
   seconds: number = 0;
@@ -44,4 +42,5 @@ export class AppComponent {
       clearInterval(this.IntervalId)
     }
   }
+
 }

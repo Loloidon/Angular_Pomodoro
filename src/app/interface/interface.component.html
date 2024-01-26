@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="menu">
+      <h3>Classical Pomodoro</h3>
+      <div class="customlist">
+          <h3>Custom 1</h3>
+          <h3>Custom 2</h3>
+          <h3>Custom 3</h3>
+          <h3>Custom 4</h3>
+          
+          <h3 routerlink="customtimer">Settings</h3>
+          <button routerLink="customtimer" >test</button>
+          
+
+          
+          
+        </div>
+      </div>
+      <div class="sphere" (click)="Start()">
+        
+        <h2 class="Start">{{start}}</h2>
+        <h3 class="Countdown">{{hour}} : {{minutes}} : {{seconds}}</h3>
+      </div>
+      <div class="spheretext">
+
+      </div>
+
+    </div>
+
+    
+</body>
+</html>
